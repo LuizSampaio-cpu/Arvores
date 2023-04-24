@@ -12,7 +12,7 @@ public class Main {
         BinaryTree<Aluno> treeById = new BinaryTree<Aluno>(new ComparatorAlunoporMat());
         BinaryTree<Aluno> treeByName = new BinaryTree<Aluno>(new ComparatorAlunoporNome());
         //caminho do arquivo
-        String path = "C:\\Users\\luizh\\OneDrive\\Documentos\\TPA (java)\\Listas\\src\\entradaOrdenada5000.txt";
+        String path = "entradaOrdenada5000.txt";
 
         Scanner s = new Scanner(System.in);
         int qtd = 0;
